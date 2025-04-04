@@ -1,0 +1,27 @@
+{
+  "name": "cypress-tests-tricentis-demo-shop",
+  "version": "1.0.0",
+  "description": "This project contains an end-to-end test automation suite for the [Tricentis Demo Web Shop](https://demowebshop.tricentis.com/), implemented using **Cypress**.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "npx cypress open --env ENV=qa",
+    "cypress:run": "npx cypress run --env ENV=dev && npx cypress run --env ENV=staging && npx cypress run --env ENV=qa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akan-baba/cypress-tests-tricentis-demo-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akan-baba/cypress-tests-tricentis-demo-shop/issues"
+  },
+  "homepage": "https://github.com/akan-baba/cypress-tests-tricentis-demo-shop#readme",
+  "devDependencies": {
+    "cypress": "^14.2.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0"
+  }
+}
